@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_numbers - print number from 0-9
- * Return: The numbers since 0 up to 9
+*print_numbers - print 0123456789
+* owned by Pelice
+*Return: void
 */
 
 void print_numbers(void)
@@ -11,7 +12,8 @@ void print_numbers(void)
 
 	for (c = '0'; c <= '9'; c++)
 	{
-		_putchar(c + '0');
+	_putchar(c);
 	}
-	_putchar ('\n');
+	_putchar('\n');
 }
+

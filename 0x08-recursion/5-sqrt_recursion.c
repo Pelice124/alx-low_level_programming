@@ -16,10 +16,10 @@ int check(int a, int b)
 }
 
 /**
- * _squrt_recursion - Returns the natural square root of a number
- * @n: The non-negative integer whose square root is to be calculated
- * Return: The natural square root or -1 if has no natural square root
-*/
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: integer to find sqrt of
+ * Return: natural square root or -1
+ */
 int _sqrt_recursion(int n)
 {
 	if (n == 0)
